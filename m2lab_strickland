@@ -1,0 +1,27 @@
+//M2Lab
+//Kenny Strickland
+//9/12/19
+
+
+//Greet user by name
+//tell user their age on next birthday
+
+
+//declaration step
+Declare string name
+Declare integer age
+
+
+//Ask for name
+display "What is your name?"
+input (name) 
+display "Greetings (name)"
+
+//Ask for their age
+display "What is your age?"
+input_integer (age)
+
+//tell user by name their age on next birthday
+nextAge= (age+1)
+display "Well (name) on your next birthday you will turn (nextAge)"
+
